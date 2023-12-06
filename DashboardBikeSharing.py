@@ -15,7 +15,8 @@ st.subheader('Daily Performance')
 
 #Load tabel Bike Sharing Day
 url = "https://raw.githubusercontent.com/agusj2000/labs/main/day.csv"
-Bikeday_df = pd.read_csv("day.csv")
+Bikeday_df = pd.read_csv(url)
+#Bikeday_df = pd.read_csv("day.csv")
 #++++++++++++++++++++++++++++++++++
 #Bike Sharing ubah tipe ke datetime
 datetime_columns = ["dteday"]
