@@ -1,4 +1,3 @@
-pip install git+https://github.com/agusj2000/labs.git
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
